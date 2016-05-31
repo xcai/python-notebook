@@ -46,3 +46,23 @@ def eat(food):
 
 
 eat('rice')
+
+print '='*40
+
+def dc(cls):
+    print cls
+
+
+@dc
+class C(object):
+    def __init__(self):
+        print self._instance
+        print "init..."
+    def __repr__(self):
+        print "<C type>...."
+
+    def __call__(self, *args, **kwargs):
+        print "call ..."
+
+c = C()
+c()
