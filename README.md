@@ -1,2 +1,2 @@
 # python-notebook
-exercise
+exercise for python 
