@@ -1,0 +1,54 @@
+site_name: Git Note
+
+site_url: http://www.baidu.com
+
+# edit on github
+repo_url: https://github.com/example/repository/
+
+site_author: 'cai'
+site_description: 'Just test'
+copyright: "Copyright: Xcai"
+
+google_analytics: ['UA-36723568-3', 'mkdocs.org']
+
+# extend
+markdown_extensions: [smartypants]
+
+nav: 
+  - Home: index.md
+  - Git Note: Git Notes.md
+  - About: about.md
+
+###################  内建主题
+#1 theme: readthedocs
+# theme:
+#   name: asf-theme
+#   asf_logo: images/asf-altenate-logo.png
+#   asf_logo_url: https://asf.alaska.edu/
+
+#2 
+# theme: simplex
+
+
+
+# theme: bootstrap4
+
+
+# pip install mkdocs-gitbook
+# theme:
+#   name: gitbook
+
+
+# pip install mkdocs-material
+# theme:
+#   name: material
+
+# pip install mkdocs-rtd-dropdown
+# theme:
+#   name: 'rtd-dropdown'
+
+
+# pip install mkdocs-custommill
+# theme: custommill
+
+# theme: ivory
