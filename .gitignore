@@ -66,3 +66,4 @@ venv
 
 #pycharm conf
 .idea
+document/mkdocs/git/site/
