@@ -3,7 +3,7 @@ site_name: 雅剂-产品手册
 # site_url: http://www.baidu.com
 
 # edit on github
-repo_url: https://github.com/example/repository/
+# repo_url: https://github.com/example/repository/
 
 
 site_author: 'cai'
@@ -23,14 +23,18 @@ copyright: "Copyright: Xcai"
 #   - About: about.md
 
 # mkdocs-localsearch
-use_directory_urls: false
+# use_directory_urls: false
 
 plugins:
-  - search
-      # min_search_length: 1
-      # lang: en
-      # prebuild_index: true
-  - localsearch
+#   features:
+#     # - search.suggest
+#     - search.highlight
+#     - search.share
+  search:
+      min_search_length: 2
+#       # lang: en
+#     - prebuild_index: false
+  # - localsearch
 
 # extra:
 #     version: 0.12.0
@@ -50,7 +54,7 @@ plugins:
 # theme: simplex
 
 
-# theme: bootstrap4
+theme: bootstrap4
 
 
 # pip install mkdocs-gitbook
@@ -60,9 +64,9 @@ plugins:
 
 # 推荐！！！
 # pip install mkdocs-material
-theme:
-  name: material
-  custom_dir: theme
+# theme:
+#   name: material
+  # custom_dir: theme
 
 # pip install mkdocs-rtd-dropdown
 # theme:

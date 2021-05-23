@@ -1,0 +1,6 @@
+[submodule "document/mkdocs/mkdocs-material"]
+	path = document/mkdocs/mkdocs-material
+	url = https://github.com/squidfunk/mkdocs-material
+[submodule "document/mkdocs/mkdocs-bootstrap4"]
+	path = document/mkdocs/mkdocs-bootstrap4
+	url = https://github.com/byrnereese/mkdocs-bootstrap4
