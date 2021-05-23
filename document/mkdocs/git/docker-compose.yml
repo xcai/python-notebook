@@ -9,3 +9,4 @@ services:
       - "86:80"
     volumes:
       - ./site:/usr/share/nginx/html
+      - ./build:/usr/share/nginx/html/site

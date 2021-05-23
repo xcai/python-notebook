@@ -14,9 +14,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-* `mkdocs serve -a 0.0.0.0:8000`  -  启动预览  ![](img/275746.jpg)
+* `mkdocs serve -a 0.0.0.0:8000`  -  启动预览  
+* `mkdocs build -v -c --theme  [mkdocs|readthedocs|rtd-dropdown|material|ivory|gitbook|custommill|bootstrap4|bootstrap|asf-theme]`   -  build
+* `mkdocs build -v -c --theme gitbook --site-dir build/site --use-directory-urls`   - build site
 
-
+![](img/275746.jpg)
 ## Project layout
 
     mkdocs.yml    # The configuration file.

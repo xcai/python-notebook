@@ -1,15 +1,16 @@
 site_name: 雅剂-产品手册
 
-site_url: http://www.baidu.com
+# site_url: http://www.baidu.com
 
 # edit on github
 repo_url: https://github.com/example/repository/
+
 
 site_author: 'cai'
 site_description: 'Just test'
 copyright: "Copyright: Xcai"
 
-google_analytics: ['UA-36723568-3', 'mkdocs.org']
+# google_analytics: ['UA-36723568-3', 'mkdocs.org']
 
 # extend
 # markdown_extensions: [smartypants]
@@ -21,18 +22,22 @@ google_analytics: ['UA-36723568-3', 'mkdocs.org']
 #   - Git Note: Git Notes.md
 #   - About: about.md
 
+# mkdocs-localsearch
+use_directory_urls: false
 
 plugins:
-  - search:
-      min_search_length: 2
-      lang: en
+  - search
+      # min_search_length: 1
+      # lang: en
+      # prebuild_index: true
+  - localsearch
 
-extra:
-    version: 0.12.0
-    links:
-        - https://github.com/mkdocs
-        - https://docs.readthedocs.org/en/latest/builds.html#mkdocs
-        - https://www.mkdocs.org/
+# extra:
+#     version: 0.12.0
+#     links:
+#         - https://github.com/mkdocs
+#         - https://docs.readthedocs.org/en/latest/builds.html#mkdocs
+#         - https://www.mkdocs.org/
 
 ###################  内建主题
 # theme: readthedocs
@@ -45,7 +50,7 @@ extra:
 # theme: simplex
 
 
-theme: bootstrap4
+# theme: bootstrap4
 
 
 # pip install mkdocs-gitbook
@@ -53,9 +58,11 @@ theme: bootstrap4
 #   name: gitbook
 
 
+# 推荐！！！
 # pip install mkdocs-material
-# theme:
-#   name: material
+theme:
+  name: material
+  custom_dir: theme
 
 # pip install mkdocs-rtd-dropdown
 # theme:
